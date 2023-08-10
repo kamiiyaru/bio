@@ -1,0 +1,47 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #323336;
+}
+
+.text {
+	font-family: arial, sans-serif;
+	text-align: center;
+	position: relative;
+	top: 50px;
+	color: white;
+}
+
+.pembatas {
+	position: relative;
+	width: 500px;
+	top: 35px;
+}
+
+.main_image {
+	display: block;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	top: 45px;
+	width:  300px;
+	height: 290px;
+}
+
+.box1 {
+	display: block;
+	vertical-align: middle;
+	line-height: 50px;
+	font-family: arial, sans-serif;
+	text-align: center;
+	position: relative;
+	top: 80px;
+	margin-right: auto;
+	margin-left: auto;
+	right: 70px;
+	width: 150px;
+	height: 50px;
+	background-color: whitesmoke;
+	overflow: auto;
+	border-radius: 3%;
+}
