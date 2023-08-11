@@ -28,20 +28,29 @@ body {
 	height: 290px;
 }
 
-.box1 {
-	display: block;
-	vertical-align: middle;
-	line-height: 50px;
-	font-family: arial, sans-serif;
-	text-align: center;
+.aboutme {
 	position: relative;
-	top: 80px;
-	margin-right: auto;
-	margin-left: auto;
-	right: 70px;
-	width: 150px;
+}
+
+.aboutmelul {
+	display: inline;
+}
+/*github button*/
+
+.buttong {
+	border: none;
+	position: absolute;
+	top: 50px;
+	width: 125px;
 	height: 50px;
-	background-color: whitesmoke;
-	overflow: auto;
-	border-radius: 3%;
+}
+
+.buttong:hover {
+	background-color: grey;
+}
+
+.githubIcon {
+	position: absolute;
+	width: 51.2px;
+	height: 51.2px;
 }
