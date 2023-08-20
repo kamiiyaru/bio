@@ -4,9 +4,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="./style/main.css">
-	<link type="text/javascript" href="./script/main.js">
 	<link rel="icon" type="image" href="./data/zeta.png">
-
 	<title>@Kamiiyaru</title>
 </head>
 <body>
@@ -16,14 +14,18 @@
 	<hr class="pembatas"></hr>
 	<!-- zeta photo :> -->
 	<image src="./data/zeta_trul.gif" class="main_image"></image>
-	<div class="aboutme">
-		<ul class="aboutmeul">
-		<!-- github icon -->
-		<img src="./data/githubIcon.png" class="githubIcon">
 
+	<div class="aboutme">
+		<div class="aboutmeul">
 		<!-- button code -->
-		<a href="https://github.com/kamiiyaru"><button class="buttong" ><p class="posGithub">github</p></button></a>
-		</ul>
+		<button id="moreButton">more?</button>
+			<div id="boutButton" class="aboutButtonPosition">
+				<a href="https://github.com/Kamiiyaru"><button class="GithubBtn">github</button>
+				<a href="https://x.com/Kamiiyaru"><button class="twtbtn"><s>twitter</s> X</button>
+			</div>
+			<script src="./script/showButton.js"></script>
+		</div>
 	</div>
+
 </body>
 </html>
